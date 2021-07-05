@@ -32,6 +32,7 @@ public class tablas extends javax.swing.JFrame {
         ventas = new javax.swing.JPanel();
         panel_ventas = new javax.swing.JTabbedPane();
         venta = new javax.swing.JPanel();
+        jButton52 = new javax.swing.JButton();
         confirmacion = new javax.swing.JPanel();
         jScrollPane7 = new javax.swing.JScrollPane();
         jTable7 = new javax.swing.JTable();
@@ -279,15 +280,23 @@ public class tablas extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jButton52.setText("jButton52");
+
         javax.swing.GroupLayout ventaLayout = new javax.swing.GroupLayout(venta);
         venta.setLayout(ventaLayout);
         ventaLayout.setHorizontalGroup(
             ventaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 986, Short.MAX_VALUE)
+            .addGroup(ventaLayout.createSequentialGroup()
+                .addGap(32, 32, 32)
+                .addComponent(jButton52)
+                .addContainerGap(870, Short.MAX_VALUE))
         );
         ventaLayout.setVerticalGroup(
             ventaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 372, Short.MAX_VALUE)
+            .addGroup(ventaLayout.createSequentialGroup()
+                .addGap(32, 32, 32)
+                .addComponent(jButton52)
+                .addContainerGap(313, Short.MAX_VALUE))
         );
 
         panel_ventas.addTab("venta", venta);
@@ -523,12 +532,12 @@ public class tablas extends javax.swing.JFrame {
         jPanel21Layout.setHorizontalGroup(
             jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel21Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel21Layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 845, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel21Layout.createSequentialGroup()
-                        .addContainerGap()
                         .addComponent(jLabel63)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
@@ -2763,6 +2772,7 @@ public class tablas extends javax.swing.JFrame {
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton50;
     private javax.swing.JButton jButton51;
+    private javax.swing.JButton jButton52;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
