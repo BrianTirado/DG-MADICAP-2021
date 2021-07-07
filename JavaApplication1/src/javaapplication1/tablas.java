@@ -280,7 +280,7 @@ public class tablas extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jButton52.setText("jButton52");
+        jButton52.setText("06/07/2021");
 
         javax.swing.GroupLayout ventaLayout = new javax.swing.GroupLayout(venta);
         venta.setLayout(ventaLayout);
@@ -289,7 +289,7 @@ public class tablas extends javax.swing.JFrame {
             .addGroup(ventaLayout.createSequentialGroup()
                 .addGap(32, 32, 32)
                 .addComponent(jButton52)
-                .addContainerGap(870, Short.MAX_VALUE))
+                .addContainerGap(858, Short.MAX_VALUE))
         );
         ventaLayout.setVerticalGroup(
             ventaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
